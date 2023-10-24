@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "drill_craft:block/rubber",
+    "up": "drill_craft:block/rubber",
+    "north": "drill_craft:block/rubber",
+    "east": "drill_craft:block/rubber",
+    "south": "drill_craft:block/rubber",
+    "west": "drill_craft:block/rubber",
+    "particle": "drill_craft:block/rubber"
+  },
+  "render_type": "solid"
+}

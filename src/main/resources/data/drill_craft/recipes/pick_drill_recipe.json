@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "drill_craft:copper_pickaxe"
+    },
+    "3": {
+      "item": "drill_craft:copper_pickaxe"
+    },
+    "4": {
+      "item": "drill_craft:copper_plate"
+    },
+    "5": {
+      "item": "drill_craft:copper_pickaxe"
+    },
+    "7": {
+      "item": "drill_craft:copper_pickaxe"
+    }
+  },
+  "result": {
+    "item": "drill_craft:pick_drill",
+    "count": 1
+  }
+}

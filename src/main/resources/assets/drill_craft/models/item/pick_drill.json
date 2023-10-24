@@ -1,0 +1,26 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "drill_craft:item/copper_pick_drill"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "drill_craft:pick_drill_level": 2
+      },
+      "model": "drill_craft:item/pick_drill_0"
+    },
+    {
+      "predicate": {
+        "drill_craft:pick_drill_level": 3
+      },
+      "model": "drill_craft:item/pick_drill_1"
+    },
+    {
+      "predicate": {
+        "drill_craft:pick_drill_level": 4
+      },
+      "model": "drill_craft:item/pick_drill_2"
+    }
+  ]
+}

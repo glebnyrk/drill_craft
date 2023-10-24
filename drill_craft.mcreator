@@ -1,0 +1,613 @@
+{
+  "mod_elements": [
+    {
+      "name": "Drill",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "drill",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/drill_craft/models/item/drill_1.json",
+          "src/main/java/net/mcreator/drillcraft/item/DrillItem.java",
+          "src/main/resources/assets/drill_craft/models/item/drill_0.json",
+          "src/main/resources/assets/drill_craft/models/item/drill.json"
+        ]
+      }
+    },
+    {
+      "name": "DrillCraft",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drill_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/drill_craft/recipes/drill_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "CheckType",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "check_type",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/drillcraft/procedures/CheckTypeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/drillWork/ui"
+    },
+    {
+      "name": "CheckLevel",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "check_level",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/drillcraft/procedures/CheckLevelProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/drillWork/ui"
+    },
+    {
+      "name": "SettingDrill",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setting_drill",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/drillcraft/procedures/SettingDrillProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/drillWork/SetDrill"
+    },
+    {
+      "name": "PickDrill",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pick_drill",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/drill_craft/models/item/pick_drill.json",
+          "src/main/resources/assets/drill_craft/models/item/pick_drill_0.json",
+          "src/main/resources/assets/drill_craft/models/item/pick_drill_1.json",
+          "src/main/resources/assets/drill_craft/models/item/pick_drill_2.json",
+          "src/main/java/net/mcreator/drillcraft/item/PickDrillItem.java"
+        ]
+      },
+      "path": "~/pick drill"
+    },
+    {
+      "name": "Silver",
+      "type": "tag",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/silver.json"
+        ]
+      },
+      "path": "~/pick drill"
+    },
+    {
+      "name": "NozzleCrafter",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nozzle_crafter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/drill_craft/models/block/nozzle_crafter.json",
+          "src/main/java/net/mcreator/drillcraft/block/entity/NozzleCrafterBlockEntity.java",
+          "src/main/resources/assets/drill_craft/blockstates/nozzle_crafter.json",
+          "src/main/java/net/mcreator/drillcraft/block/NozzleCrafterBlock.java",
+          "src/main/resources/assets/drill_craft/models/item/nozzle_crafter.json"
+        ]
+      },
+      "path": "~/nozzle crafter"
+    },
+    {
+      "name": "NozzleCrafterGUI",
+      "type": "gui",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nozzle_crafter_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/drillcraft/world/inventory/NozzleCrafterGUIMenu.java",
+          "src/main/java/net/mcreator/drillcraft/client/gui/NozzleCrafterGUIScreen.java"
+        ]
+      },
+      "path": "~/nozzle crafter"
+    },
+    {
+      "name": "MetalCoin",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_coin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/drill_craft/models/item/metal_coin.json",
+          "src/main/java/net/mcreator/drillcraft/item/MetalCoinItem.java"
+        ]
+      },
+      "path": "~/nozzle crafter"
+    },
+    {
+      "name": "CopperCoil",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_coil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/drill_craft/models/item/copper_coil.json",
+          "src/main/java/net/mcreator/drillcraft/item/CopperCoilItem.java"
+        ]
+      },
+      "path": "~/nozzle crafter"
+    },
+    {
+      "name": "IronPlate",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/drillcraft/item/IronPlateItem.java",
+          "src/main/resources/assets/drill_craft/models/item/iron_plate.json"
+        ]
+      },
+      "path": "~/nozzle crafter"
+    },
+    {
+      "name": "CopperPlate",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/drill_craft/models/item/copper_plate.json",
+          "src/main/java/net/mcreator/drillcraft/item/CopperPlateItem.java"
+        ]
+      },
+      "path": "~/nozzle crafter"
+    },
+    {
+      "name": "NetheritePlate",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/drill_craft/models/item/netherite_plate.json",
+          "src/main/java/net/mcreator/drillcraft/item/NetheritePlateItem.java"
+        ]
+      },
+      "path": "~/nozzle crafter"
+    },
+    {
+      "name": "RubberPiece",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubber_piece",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/drillcraft/item/RubberPieceItem.java",
+          "src/main/resources/assets/drill_craft/models/item/rubber_piece.json"
+        ]
+      },
+      "path": "~/nozzle crafter/rubber"
+    },
+    {
+      "name": "RubberBlock",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubber_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/drill_craft/blockstates/rubber_block.json",
+          "src/main/resources/assets/drill_craft/models/block/rubber_block.json",
+          "src/main/java/net/mcreator/drillcraft/block/RubberBlockBlock.java",
+          "src/main/resources/assets/drill_craft/models/item/rubber_block.json"
+        ]
+      },
+      "path": "~/nozzle crafter/rubber"
+    },
+    {
+      "name": "RubberBlockCraft",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubber_block_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/drill_craft/recipes/rubber_block_craft.json"
+        ]
+      },
+      "path": "~/nozzle crafter/rubber"
+    },
+    {
+      "name": "RubberPieceCraft",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubber_piece_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/drill_craft/recipes/rubber_piece_craft.json"
+        ]
+      },
+      "path": "~/nozzle crafter/rubber"
+    },
+    {
+      "name": "Chip",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chip",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/drill_craft/models/item/chip.json",
+          "src/main/java/net/mcreator/drillcraft/item/ChipItem.java"
+        ]
+      },
+      "path": "~/nozzle crafter"
+    },
+    {
+      "name": "Battery",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battery",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/drillcraft/item/BatteryItem.java",
+          "src/main/resources/assets/drill_craft/models/item/battery.json"
+        ]
+      },
+      "path": "~/nozzle crafter"
+    },
+    {
+      "name": "Accumulator",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "accumulator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/drill_craft/models/item/accumulator.json",
+          "src/main/java/net/mcreator/drillcraft/item/AccumulatorItem.java"
+        ]
+      },
+      "path": "~/nozzle crafter"
+    },
+    {
+      "name": "LightEmittingDiode",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_emitting_diode",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/drillcraft/item/LightEmittingDiodeItem.java",
+          "src/main/resources/assets/drill_craft/models/item/light_emitting_diode.json"
+        ]
+      },
+      "path": "~/nozzle crafter"
+    },
+    {
+      "name": "Rubber",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubber",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/drill_craft/recipes/rubber.json"
+        ]
+      },
+      "path": "~/nozzle crafter"
+    },
+    {
+      "name": "RubberCraft",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubber_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/drill_craft/recipes/rubber_craft.json"
+        ]
+      },
+      "path": "~/nozzle crafter"
+    },
+    {
+      "name": "CraftingProcess",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "crafting_process",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/nozzle crafter"
+    },
+    {
+      "name": "Frame",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "frame",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/drill_craft/blockstates/frame.json",
+          "src/main/java/net/mcreator/drillcraft/block/FrameBlock.java",
+          "src/main/resources/assets/drill_craft/models/block/frame.json",
+          "src/main/java/net/mcreator/drillcraft/block/entity/FrameBlockEntity.java",
+          "src/main/resources/assets/drill_craft/models/item/frame.json"
+        ]
+      }
+    },
+    {
+      "name": "Crafting",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/drillcraft/procedures/CraftingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/pick drill"
+    },
+    {
+      "name": "CopperPickaxe",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/drillcraft/item/CopperPickaxeItem.java",
+          "src/main/resources/assets/drill_craft/models/item/copper_pickaxe.json"
+        ]
+      },
+      "path": "~/pick drill"
+    },
+    {
+      "name": "PickDrillRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pick_drill_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/drill_craft/recipes/pick_drill_recipe.json"
+        ]
+      },
+      "path": "~/pick drill"
+    },
+    {
+      "name": "CopperPickaxeCraft",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/drill_craft/recipes/copper_pickaxe_craft.json"
+        ]
+      },
+      "path": "~/pick drill"
+    },
+    {
+      "name": "NozzleCrafterCraft",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nozzle_crafter_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/drill_craft/recipes/nozzle_crafter_craft.json"
+        ]
+      },
+      "path": "~/nozzle crafter"
+    },
+    {
+      "name": "GhggObnovlieniieTika",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghgg_obnovlieniie_tika",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/drillcraft/procedures/GhggObnovlieniieTikaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.drill_craft.nozzle_crafter": "Nozzle Crafter",
+      "item.drill_craft.netherite_plate": "Netherite Plate",
+      "item.drill_craft.drill": "Drill",
+      "item.drill_craft.light_emitting_diode": "Light Emitting Diode",
+      "block.drill_craft.frame": "Frame",
+      "item.drill_craft.metal_coin": "Metal Coin",
+      "gui.drill_craft.nozzle_crafter_gui.tooltip_siuda_instrumient": "сюда предмет",
+      "item.drill_craft.accumulator": "Accumulator",
+      "item.drill_craft.copper_plate": "Copper Plate",
+      "item.drill_craft.iron_plate": "Iron Plate",
+      "gui.drill_craft.nozzle_crafter_gui.label_crafter": "crafter",
+      "item.drill_craft.copper_coil": "Copper Coil",
+      "gui.drill_craft.nozzle_crafter_gui.tooltip_tykai_siuda": "сюда твою деталь / заготовку",
+      "gui.drill_craft.nozzle_crafter_gui.button_go": "go",
+      "item.drill_craft.battery": "Battery",
+      "item.drill_craft.copper_pickaxe": "Copper Pickaxe",
+      "item.drill_craft.chip": "Chip",
+      "gui.drill_craft.nozzle_crafter_gui.tooltip_koghda_vsie_razlozhil_zhmi": "когда все разложил жми",
+      "item.drill_craft.pick_drill": "Pick Drill",
+      "item.drill_craft.rubber_piece": "Rubber Piece",
+      "block.drill_craft.rubber_block": "Rubber Block"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "pick drill",
+        "children": []
+      },
+      {
+        "name": "drillWork",
+        "children": [
+          {
+            "name": "ui",
+            "children": []
+          },
+          {
+            "name": "SetDrill",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "nozzle crafter",
+        "children": [
+          {
+            "name": "rubber",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "drill_craft",
+    "modName": "drill craft",
+    "version": "1.0.0",
+    "author": "User, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.4",
+    "modElementsPackage": "net.mcreator.drillcraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

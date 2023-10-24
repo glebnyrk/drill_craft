@@ -1,0 +1,23 @@
+{
+  "block.drill_craft.nozzle_crafter": "Nozzle Crafter",
+  "item.drill_craft.netherite_plate": "Netherite Plate",
+  "item.drill_craft.drill": "Drill",
+  "item.drill_craft.light_emitting_diode": "Light Emitting Diode",
+  "block.drill_craft.frame": "Frame",
+  "item.drill_craft.metal_coin": "Metal Coin",
+  "gui.drill_craft.nozzle_crafter_gui.tooltip_siuda_instrumient": "сюда предмет",
+  "item.drill_craft.accumulator": "Accumulator",
+  "item.drill_craft.copper_plate": "Copper Plate",
+  "item.drill_craft.iron_plate": "Iron Plate",
+  "gui.drill_craft.nozzle_crafter_gui.label_crafter": "crafter",
+  "item.drill_craft.copper_coil": "Copper Coil",
+  "gui.drill_craft.nozzle_crafter_gui.tooltip_tykai_siuda": "сюда твою деталь / заготовку",
+  "gui.drill_craft.nozzle_crafter_gui.button_go": "go",
+  "item.drill_craft.battery": "Battery",
+  "item.drill_craft.copper_pickaxe": "Copper Pickaxe",
+  "item.drill_craft.chip": "Chip",
+  "gui.drill_craft.nozzle_crafter_gui.tooltip_koghda_vsie_razlozhil_zhmi": "когда все разложил жми",
+  "item.drill_craft.pick_drill": "Pick Drill",
+  "item.drill_craft.rubber_piece": "Rubber Piece",
+  "block.drill_craft.rubber_block": "Rubber Block"
+}

@@ -1,0 +1,7 @@
+{
+  "multipart":[
+	{"apply":{"model":"drill_craft:block/one"}},
+	{"apply":{"model":"drill_craft:block/two"},
+	"when":{"ggg":"false"}	}
+  	]
+}

@@ -1,0 +1,12 @@
+{
+  "stack": [
+    {
+      "name": "item1",
+      "count": 2
+    },
+    {
+      "name": "item2",
+      "count": 3
+    }
+  ]
+}

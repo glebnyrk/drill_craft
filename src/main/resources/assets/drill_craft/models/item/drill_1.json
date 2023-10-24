@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "drill_craft:item/drill_with_iron_pick"
+  }
+}

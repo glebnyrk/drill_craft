@@ -1,0 +1,34 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "drill_craft:item/drill"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "drill_craft:drill_type": 1,
+        "drill_craft:drill_level": 1
+      },
+      "model": "drill_craft:item/drill_0"
+    },
+    {
+      "predicate": {
+        "drill_craft:drill_type": 1,
+        "drill_craft:drill_level": 2
+      },
+      "model": "drill_craft:item/drill_1"
+    },
+   {"predicate": {
+        "drill_craft:drill_type": 1,
+        "drill_craft:drill_level": 3
+      },
+      "model": "drill_craft:item/drill_2"
+   	},
+    {"predicate": {
+      "drill_craft:drill_type": 1,
+      "drill_craft:drill_level": 4
+    },
+      "model": "drill_craft:item/drill_3"
+    }
+  ]
+}

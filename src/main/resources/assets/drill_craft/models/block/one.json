@@ -1,0 +1,18 @@
+{
+	"credit": "Made with Blockbench",
+	"elements": [
+		{
+			"from": [0, 0, 8],
+			"to": [8, 8, 16],
+			"color": 9,
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8], "texture": "drill_craft:rubber"},
+				"east": {"uv": [0, 0, 8, 8], "texture": "drill_craft:rubber"},
+				"south": {"uv": [0, 0, 8, 8], "texture": "drill_craft:rubber"},
+				"west": {"uv": [0, 0, 8, 8], "texture": "drill_craft:rubber"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "drill_craft:rubber"},
+				"down": {"uv": [0, 0, 8, 8], "texture": "drill_craft:rubber"}
+			}
+		}
+	]
+}

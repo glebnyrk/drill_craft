@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "drill_craft:rubber_piece"
+    },
+    "1": {
+      "item": "drill_craft:rubber_piece"
+    },
+    "2": {
+      "item": "drill_craft:rubber_piece"
+    },
+    "3": {
+      "item": "drill_craft:rubber_piece"
+    },
+    "4": {
+      "item": "drill_craft:rubber_piece"
+    },
+    "5": {
+      "item": "drill_craft:rubber_piece"
+    },
+    "6": {
+      "item": "drill_craft:rubber_piece"
+    },
+    "7": {
+      "item": "drill_craft:rubber_piece"
+    },
+    "8": {
+      "item": "drill_craft:rubber_piece"
+    }
+  },
+  "result": {
+    "item": "drill_craft:rubber_block",
+    "count": 1
+  }
+}

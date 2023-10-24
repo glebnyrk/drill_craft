@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "drill_craft:rubber_block"
+    }
+  ],
+  "result": {
+    "item": "drill_craft:rubber_piece",
+    "count": 9
+  }
+}
