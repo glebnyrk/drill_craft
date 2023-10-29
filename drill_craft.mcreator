@@ -409,23 +409,6 @@
       "path": "~/nozzle crafter"
     },
     {
-      "name": "Frame",
-      "type": "block",
-      "sortid": 28,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "frame",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/drill_craft/blockstates/frame.json",
-          "src/main/java/net/mcreator/drillcraft/block/FrameBlock.java",
-          "src/main/resources/assets/drill_craft/models/block/frame.json",
-          "src/main/java/net/mcreator/drillcraft/block/entity/FrameBlockEntity.java",
-          "src/main/resources/assets/drill_craft/models/item/frame.json"
-        ]
-      }
-    },
-    {
       "name": "Crafting",
       "type": "procedure",
       "sortid": 29,
@@ -503,33 +486,68 @@
       "path": "~/nozzle crafter"
     },
     {
-      "name": "GhggObnovlieniieTika",
+      "name": "WhenBlockNeighbour",
       "type": "procedure",
       "sortid": 34,
       "compiles": true,
+      "locked_code": true,
+      "registry_name": "when_block_neighbour",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/drillcraft/procedures/WhenBlockNeighbourProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "DrillWorking",
+      "type": "itemextension",
+      "sortid": 35,
+      "compiles": true,
       "locked_code": false,
-      "registry_name": "ghgg_obnovlieniie_tika",
+      "registry_name": "drill_working",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/drillcraft/procedures/GhggObnovlieniieTikaProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
+          "src/main/java/net/mcreator/drillcraft/item/extension/DrillWorkingItemExtension.java"
+        ]
+      }
+    },
+    {
+      "name": "CrushBlock",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "crush_block",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "MinersHelmet",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "miners_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/drill_craft/models/item/miners_helmet.json",
+          "src/main/java/net/mcreator/drillcraft/item/MinersHelmetItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MinerHelmetCraft",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miner_helmet_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/drill_craft/recipes/miner_helmet_craft.json"
         ]
       }
     }
@@ -542,12 +560,13 @@
       "item.drill_craft.netherite_plate": "Netherite Plate",
       "item.drill_craft.drill": "Drill",
       "item.drill_craft.light_emitting_diode": "Light Emitting Diode",
-      "block.drill_craft.frame": "Frame",
       "item.drill_craft.metal_coin": "Metal Coin",
+      "item.drill_craft.miners_helmet": "Miners Helmet",
       "gui.drill_craft.nozzle_crafter_gui.tooltip_siuda_instrumient": "сюда предмет",
       "item.drill_craft.accumulator": "Accumulator",
       "item.drill_craft.copper_plate": "Copper Plate",
       "item.drill_craft.iron_plate": "Iron Plate",
+      "block.drill_craft.auto_crafter": "Auto Crafter",
       "gui.drill_craft.nozzle_crafter_gui.label_crafter": "crafter",
       "item.drill_craft.copper_coil": "Copper Coil",
       "gui.drill_craft.nozzle_crafter_gui.tooltip_tykai_siuda": "сюда твою деталь / заготовку",

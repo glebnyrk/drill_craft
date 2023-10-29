@@ -23,6 +23,7 @@ import net.mcreator.drillcraft.procedures.CheckLevelProcedure;
 import net.mcreator.drillcraft.item.RubberPieceItem;
 import net.mcreator.drillcraft.item.PickDrillItem;
 import net.mcreator.drillcraft.item.NetheritePlateItem;
+import net.mcreator.drillcraft.item.MinersHelmetItem;
 import net.mcreator.drillcraft.item.MetalCoinItem;
 import net.mcreator.drillcraft.item.LightEmittingDiodeItem;
 import net.mcreator.drillcraft.item.IronPlateItem;
@@ -52,8 +53,8 @@ public class DrillCraftModItems {
 	public static final RegistryObject<Item> BATTERY = REGISTRY.register("battery", () -> new BatteryItem());
 	public static final RegistryObject<Item> ACCUMULATOR = REGISTRY.register("accumulator", () -> new AccumulatorItem());
 	public static final RegistryObject<Item> LIGHT_EMITTING_DIODE = REGISTRY.register("light_emitting_diode", () -> new LightEmittingDiodeItem());
-	public static final RegistryObject<Item> FRAME = block(DrillCraftModBlocks.FRAME);
 	public static final RegistryObject<Item> COPPER_PICKAXE = REGISTRY.register("copper_pickaxe", () -> new CopperPickaxeItem());
+	public static final RegistryObject<Item> MINERS_HELMET = REGISTRY.register("miners_helmet", () -> new MinersHelmetItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

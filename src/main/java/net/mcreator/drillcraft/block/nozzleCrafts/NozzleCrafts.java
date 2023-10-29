@@ -32,8 +32,8 @@ public class NozzleCrafts {
             Items.AMETHYST_SHARD.getDefaultInstance(),
             ItemStack.EMPTY,
             DrillCraftModItems.COPPER_PLATE.get().getDefaultInstance(),
-            Items.IRON_PICKAXE.getDefaultInstance(),
-            Items.DIAMOND_PICKAXE.getDefaultInstance(),
+            Items.IRON_BLOCK.getDefaultInstance(),
+            Items.DIAMOND_BLOCK.getDefaultInstance(),
             DrillCraftModItems.NETHERITE_PLATE.get().getDefaultInstance()
     };
    static ItemStack[] result = {

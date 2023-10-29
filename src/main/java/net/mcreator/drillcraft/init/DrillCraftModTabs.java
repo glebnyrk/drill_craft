@@ -28,6 +28,7 @@ public class DrillCraftModTabs {
 			tabData.accept(DrillCraftModItems.DRILL.get());
 			tabData.accept(DrillCraftModItems.PICK_DRILL.get());
 			tabData.accept(DrillCraftModItems.COPPER_PICKAXE.get());
+			tabData.accept(DrillCraftModItems.MINERS_HELMET.get());
 		}
 	}
 }
