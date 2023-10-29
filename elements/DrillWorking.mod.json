@@ -1,0 +1,21 @@
+{
+  "_fv": 47,
+  "_type": "itemextension",
+  "definition": {
+    "item": {
+      "value": "CUSTOM:PickDrill"
+    },
+    "enableFuel": false,
+    "fuelPower": {
+      "fixedValue": 1600.0
+    },
+    "hasDispenseBehavior": true,
+    "dispenseSuccessCondition": {
+      "name": "WhenBlockNeighbour"
+    },
+    "dispenseResultItemstack": {
+      "name": "CrushBlock"
+    },
+    "compostLayerChance": 0.0
+  }
+}

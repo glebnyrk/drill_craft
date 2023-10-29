@@ -1,0 +1,7 @@
+{
+  "parent": "drill_craft:custom/model",
+  "textures": {
+    "0": "drill_craft:block/hat",
+    "particle": "drill_craft:item/hat"
+  }
+}

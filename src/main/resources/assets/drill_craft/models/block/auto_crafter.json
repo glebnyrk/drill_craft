@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "drill_craft:block/nozzle_crafter",
+    "up": "drill_craft:block/nozzle_crafter",
+    "north": "drill_craft:block/nozzle_crafter",
+    "east": "drill_craft:block/nozzle_crafter",
+    "south": "drill_craft:block/nozzle_crafter",
+    "west": "drill_craft:block/nozzle_crafter",
+    "particle": "drill_craft:block/nozzle_crafter"
+  },
+  "render_type": "solid"
+}

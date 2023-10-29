@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "drill_craft:block/auto_crafter"
+    }
+  }
+}
